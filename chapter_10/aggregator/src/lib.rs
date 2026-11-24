@@ -1,4 +1,4 @@
-pub trait Summary {
+pub trait Summ ary {
     fn get_author(&self) -> String;
     fn summarize(&self) -> String {
         format!("tbd by {}", self.get_author())
